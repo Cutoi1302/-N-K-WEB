@@ -1,0 +1,354 @@
+
+#logo {
+	height: 138px;
+	background-color: #fdfbf7;
+}
+#logo img{
+	width: 7.5%;
+	margin: auto;
+	display: block;
+}
+/*css phần navbar*/
+#menu .navbar-default .navbar-toggle{
+	border: 2px solid #346879;
+	border-radius: 0px;
+	padding: 19px 5px;
+	margin-top: 25px;
+}
+#menu .navbar-default{
+	background-color: #e2f3fb;
+	border: none;
+	margin-bottom: 0px;
+}
+#menu .navbar {
+	border-radius: 0px;
+	height: 95px;
+}
+#menu .navbar ul li{
+	float: left;
+	left: 100px;
+	list-style-type: none;
+	line-height: 100px;
+	border-radius: 0%;
+	color: #346879;
+	margin-left: -24px;
+}
+#menu .navbar ul li:hover a{
+	text-decoration: underline;
+}
+#menu .navbar ul li a{
+	color: #346879;
+	font-size: 18px;
+	font-family: UTM Neo Sans Intel;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+#menu .nav>li>a {
+	padding: 15px 35px;
+}
+#menu .navbar ul li a {
+	text-align: center;
+}
+#menu .navbar-inverse .navbar-nav>li>a{
+	color: #346879;
+}
+#menu .navbar-inverse .navbar-nav>li>a:hover{
+	color: #346879;
+}
+#menu .form-control{
+	border-radius: 0px;
+	border: 2px solid #346879;
+	height: 40px;
+	width: 200px;
+	padding: 6px 15px;
+	background-color: #e2f3fb;
+	margin-top: 17px;
+	margin-left: 90px;
+}
+#menu .btn-default{
+	border: 2px solid #346879;
+	background-color: #e2f3fb;
+	border-radius: 0px;
+	height: 40px;
+	margin-top: 17px;
+	margin-left: -14px;
+	border-left: none;
+}
+#menu .input-group-btn button:hover{
+	background-color: #e2f3fb;
+}
+#menu span {
+	width: 30px;
+	float: right;
+	margin-top: 3px;
+	color:  #346879;
+}
+#menu span:hover{
+	background-color: #e2f3fb;
+}
+/*CSS phaand lựa chọn*/
+#luachon{
+	padding-top: 65px;
+	padding-bottom: 80px;
+	background-color: #fdfbf7;
+}
+#luachon .menu ul li{
+	float: left;
+	list-style-type: none;
+	line-height: 130px;
+	border-radius: 0%;
+	padding: 0px 21px;
+}
+#luachon .menu ul li:hover {
+	background-color: #e2f3fb;
+}
+#luachon .menu ul li a{
+	color: #346879;
+	font-size: 24px;
+	font-family: UTM Neo Sans Intel;
+	text-decoration: none;
+	text-transform: uppercase;	
+}
+#luachon .menu ul li a p{
+	text-align: center;
+}
+#luachon .nav-tabs{
+	border: none;
+}
+#luachon .nav-tabs>li.active>a{
+	border: none;
+	background-color: #e2f3fb;
+	padding: 55px 14px;
+}
+#luachon .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border: none;
+	background-color: #e2f3fb;
+	padding: 55px 14px;
+}
+#luachon .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border-bottom-color: none;
+	cursor: none;
+	padding: 55px 14px;
+}
+#luachon .nav-tabs>li>a:hover {
+	border-color: #e2f3fb;
+	padding: 55px 14px;
+}
+#luachon .nav>li>a:focus, .nav>li>a:hover{
+	background-color: #e2f3fb;
+	padding: 55px 14px;
+}
+#luachon .nav-tabs>li>a {
+	margin-right: 0px;
+	line-height: 0;
+	border: none;
+	border-radius: 0px;
+}
+#luachon .nav>li>a{
+	padding: 55px 14px;
+	position: none;
+	display: inline-block;
+}
+/*css hà nội*/
+.hanoi{
+	padding-top: 30px;
+	background-color: #fdfbf7;
+}
+.hanoi h3{
+	margin-top: 250px;
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+	text-align: right;
+}
+.hanoi p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: right;
+}
+.hanoi a{
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	font-family: UTM Neo Sans Intel; 
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	float: right;
+}
+.hanoi a:hover{
+	background-color: #346879;
+	color:white;
+	text-decoration: none;
+}
+
+/*css đà lạt*/
+.dalat{
+	padding-top: 150px;
+	background-color: #fdfbf7;
+}
+.dalat h3{
+	margin-top: 220px;
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+	text-align: left;
+}
+.dalat p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: left;
+}
+.dalat a{
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	font-family: UTM Neo Sans Intel; 
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	float: left;
+}
+.dalat a:hover{
+	background-color: #346879;
+	color:white;
+	text-decoration: none;
+}
+
+/*css phần đã nẵng*/
+.danang{
+	padding-top: 150px;
+	background-color: #fdfbf7;
+}
+.danang h3{
+	margin-top: 230px;
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+	text-align: right;
+}
+.danang p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: right;
+}
+.danang a{
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	font-family: UTM Neo Sans Intel; 
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	float: right;
+}
+.danang a:hover{
+	background-color: #346879;
+	color:white;
+	text-decoration: none;
+}
+
+/*css phần nha trang*/
+
+.nhatrang{
+	padding: 220px 0px;
+	background-color: #fdfbf7;
+}
+.nhatrang .caption {
+	margin-top: -550px;
+	background-color: #e2f3fb;
+	height: 400px;
+}
+.nhatrang h3{
+	margin-top: 270px;
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+	text-align: left;
+}
+.nhatrang p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: left;
+}
+.nhatrang a{
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	font-family: UTM Neo Sans Intel; 
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	float: left;
+	background-color: #e2f3fb;
+}
+.nhatrang a:hover{
+	background-color: #346879;
+	color:white;
+	text-decoration: none;
+}
+
+/*CSS PHẦN hcm*/
+.hcm{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background-color: #fdfbf7;
+}
+.hcm h3{
+	margin-top: 20px;
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+}
+.hcm p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+}
+.hcm a {
+	margin-left: 510px;
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	font-family: UTM Neo Sans Intel; 
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+.hcm a:hover{
+	background-color: #346879;
+	color:white;
+	text-decoration: none;
+}
+.hcm img {
+	margin-top: 50px;
+}
+
+/*css phần cuối trang*/
+#footer{
+	width: 100%;
+	height: 250px;
+	background-color: #e2f3fb;
+}
+#footer p {
+	margin-top: 20px;
+	font-family: UTM Neo Sans Intel;
+	color: #306176;
+	font-size: 18px;
+	text-align: center;
+}

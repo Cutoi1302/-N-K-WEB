@@ -1,0 +1,204 @@
+
+#logo {
+	height: 138px;
+	background-color: #fdfbf7;
+}
+#logo img{
+	width: 7.5%;
+	margin: auto;
+	display: block;
+}
+/*css phần navbar*/
+#menu .navbar-default .navbar-toggle{
+	border: 2px solid #346879;
+	border-radius: 0px;
+	padding: 19px 5px;
+	margin-top: 25px;
+}
+#menu .navbar-default{
+	background-color: #e2f3fb;
+	border: none;
+	margin-bottom: 0px;
+}
+#menu .navbar {
+	border-radius: 0px;
+	height: 95px;
+}
+#menu .navbar ul li{
+	float: left;
+	left: 100px;
+	list-style-type: none;
+	line-height: 100px;
+	border-radius: 0%;
+	color: #346879;
+	margin-left: -24px;
+}
+#menu .navbar ul li:hover a{
+	text-decoration: underline;
+}
+#menu .navbar ul li a{
+	color: #346879;
+	font-size: 18px;
+	font-family: UTM Neo Sans Intel;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+#menu .nav>li>a {
+	padding: 15px 35px;
+}
+#menu .navbar ul li a {
+	text-align: center;
+}
+#menu .navbar-inverse .navbar-nav>li>a{
+	color: #346879;
+}
+#menu .navbar-inverse .navbar-nav>li>a:hover{
+	color: #346879;
+}
+#menu .form-control{
+	border-radius: 0px;
+	border: 2px solid #346879;
+	height: 40px;
+	width: 200px;
+	padding: 6px 15px;
+	background-color: #e2f3fb;
+	margin-top: 17px;
+	margin-left: 90px;
+}
+#menu .btn-default{
+	border: 2px solid #346879;
+	background-color: #e2f3fb;
+	border-radius: 0px;
+	height: 40px;
+	margin-top: 17px;
+	margin-left: -14px;
+	border-left: none;
+}
+#menu .input-group-btn button:hover{
+	background-color: #e2f3fb;
+}
+#menu span {
+	width: 30px;
+	float: right;
+	margin-top: 3px;
+	color:  #346879;
+}
+#menu span:hover{
+	background-color: #e2f3fb;
+}
+
+/*css phần giới thiệu*/
+#tuart {
+	height: 570px;
+	background-color: #e2f3fb;
+}
+#tuart img{
+	width: 100%;
+}
+#tuartgroup {
+	background-color: #fdfbf7;
+	padding: 150px 0px;
+}
+#tuartgroup h3{
+	margin-top: 50px;
+	font-family: SVN-Wallows;  
+	font-size: 55px;
+	color: #346879;
+}
+#tuartgroup p {
+	width: 1027px;
+	margin-top: 40px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	padding-left: 125px;
+}
+#tuartgroup .row{
+	padding-top: 70px;
+}
+
+/*css của phần đóng góp*/
+#donggop{
+	padding: 40px 0px;
+	background-color: #fdfbf7;
+}
+#donggop .caption{
+	padding: 0px 60px;
+	margin: auto;		
+	width: 600px;
+	height: 400px;
+	background-color: #e2f3fb;
+}
+#donggop .caption h3{
+	margin-top: 50px;
+	padding-top: 40px;
+	font-family: SVN-Wallows;  
+	font-size: 55px;
+	color: #346879;
+}
+#donggop p {
+	margin-top: 50px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: 
+}
+/*css phần danh hiệu đạt được*/
+#tieude {
+	background-color: #fdfbf7;
+}
+#tieude h3{
+	margin-top: 90px;
+	font-family: SVN-Wallows;  
+	font-size: 55px;
+	color: #346879;
+}
+#danhhieu{
+	padding-top: 100px 0px;
+	background-color: #e2f3fb;
+	height: 1250px;
+}
+#danhhieu p {
+	margin-top: 50px;
+	margin-left: 300px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	width: 567px;
+	height: 1090px;
+	font-size: 18px;
+	text-align: 
+}
+
+/*css video*/
+#video {
+	padding-top: 500px;
+	padding-bottom: 120px;
+	background-color: #fdfbf7;
+}
+#video h3{
+	padding-top: 20px;
+	font-family: UTM Neo Sans Intel;
+	font-size: 24px;
+	color: black;
+}
+#video .caption {
+	margin-top: -30px;
+	height: 70px;
+	background-color: #e2f3fb;
+}
+
+
+/*css phần cuối trang*/
+#footer{
+	width: 100%;
+	height: 250px;
+	background-color: #e2f3fb;
+}
+#footer p {
+	margin-top: 20px;
+	font-family: UTM Neo Sans Intel;
+	color: #306176;
+	font-size: 18px;
+	text-align: center;
+}

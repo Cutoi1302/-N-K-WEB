@@ -1,0 +1,386 @@
+
+
+#logo {
+	height: 138px;
+	background-color: #fdfbf7;
+}
+#logo img{
+	width: 7.5%;
+	margin: auto;
+	display: block;
+}
+/*css phần navbar*/
+#menu .navbar-default .navbar-toggle{
+	border: 2px solid #346879;
+	border-radius: 0px;
+	padding: 19px 5px;
+	margin-top: 25px;
+}
+#menu .navbar-default{
+	background-color: #e2f3fb;
+	border: none;
+	margin-bottom: 0px;
+}
+#menu .navbar {
+	border-radius: 0px;
+	height: 95px;
+}
+#menu .navbar ul li{
+	float: left;
+	left: 100px;
+	list-style-type: none;
+	line-height: 100px;
+	border-radius: 0%;
+	color: #346879;
+	margin-left: -24px;
+}
+#menu .navbar ul li:hover a{
+	text-decoration: underline;
+}
+#menu .navbar ul li a{
+	color: #346879;
+	font-size: 18px;
+	font-family: UTM Neo Sans Intel;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+#menu .nav>li>a {
+	padding: 15px 35px;
+}
+#menu .navbar ul li a {
+	text-align: center;
+}
+#menu .navbar-inverse .navbar-nav>li>a{
+	color: #346879;
+}
+#menu .navbar-inverse .navbar-nav>li>a:hover{
+	color: #346879;
+}
+#menu .form-control{
+	border-radius: 0px;
+	border: 2px solid #346879;
+	height: 40px;
+	width: 200px;
+	padding: 6px 15px;
+	background-color: #e2f3fb;
+	margin-top: 17px;
+	margin-left: 90px;
+}
+#menu .btn-default{
+	border: 2px solid #346879;
+	background-color: #e2f3fb;
+	border-radius: 0px;
+	height: 40px;
+	margin-top: 17px;
+	margin-left: -14px;
+	border-left: none;
+}
+#menu .input-group-btn button:hover{
+	background-color: #e2f3fb;
+}
+#menu span {
+	width: 30px;
+	float: right;
+	margin-top: 3px;
+	color:  #346879;
+}
+#menu span:hover{
+	background-color: #e2f3fb;
+}
+
+/*css phần ảnh cưới*/
+@media only screen and (max-width: 768px){
+	#anhcuoi .item .col-xs-4{
+	width: 49.333333%!important;
+}
+}
+@media only screen and (max-width: 768px){
+	#anhcuoi .item .phai{
+	left: 200px;
+	
+}
+	#anhcuoi .item .carousel{
+		text-align: center;
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 1024px){
+	#anhcuoi .item .col-lg-4{
+	width: 49.333333%!important;
+}
+}
+}
+#anhcuoi .item .col-lg-4 img{
+	width: 100px;
+	height: 100px;
+	display: block;
+
+}
+#anhcuoi{
+	padding: 120px 0px;
+	background-color: #fdfbf7;
+}
+#anhcuoi h3{
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+	text-align: center;
+}
+#anhcuoi .col-xs-4 img{
+	padding-top: 40px;
+}
+#anhcuoi a {
+	color: black;
+	text-align: left;
+}
+#anhcuoi a :hover {
+	color: white;
+	text-align: left;
+}
+#anhcuoi p {
+	margin-top: 25px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: left;
+	float: left;
+}
+#anhcuoi .col-xs-4 a {
+	font-size: 18px;
+	margin-top: 5px;
+	float: left;
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	margin-right: 130px;
+	font-family: UTM Neo Sans Intel; 
+	text-decoration: none;
+	color: black;
+}
+#anhcuoi .col-xs-4 a:hover{
+	background-color: #346879;
+	color:white;
+}
+#anhcuoi .carousel-control.right {
+	background-image: none;
+}
+#anhcuoi .carousel-control.left {
+	background-image: none;
+
+}
+#anhcuoi .carousel-control {
+	text-align: left;
+	font-family: UTM Neo Sans Intel;
+	opacity: 100%;
+	color: #346879;
+	width: 3%;
+	margin-top: 650px;
+}
+
+/*css phần ảnh gia đình*/
+@media only screen and (max-width: 768px){
+	#anhgiadinh .item .col-xs-4{
+	width: 49.333333%!important;
+}
+}
+@media only screen and (max-width: 768px){
+	#anhgiadinh .item .phai{
+	left: 200px;
+	
+}
+}
+#anhgiadinh{
+	padding: 90px 0px;
+	background-color: #fdfbf7;
+}
+#anhgiadinh h3{
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+	text-align: center;
+}
+#anhgiadinh .col-xs-4 img{
+	padding-top: 40px;
+}
+#anhgiadinh p {
+	margin-top: 25px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	float: left;
+	text-align: left;
+}
+#anhgiadinh .col-xs-4 a {
+	float: left;
+	margin-top: 5px;
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	margin-right: 130px;
+	font-family: UTM Neo Sans Intel; 
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+#anhgiadinh .col-xs-4 a:hover{
+	background-color: #346879;
+	color:white;
+}
+#anhgiadinh .carousel-control.right {
+	background-image: none;
+}
+#anhgiadinh .carousel-control.left {
+	background-image: none;
+
+}
+#anhgiadinh .carousel-control {
+	text-align: left;
+	font-family: UTM Neo Sans Intel;
+	opacity: 100%;
+	color: #346879;
+	width: 3%;
+	margin-top: 620px;
+	display: block;
+}
+
+/*css phần ảnh bé yêu*/
+#anhbe{
+	padding-top: 280px;
+	padding-bottom: 80px;
+	background-color: #fdfbf7;
+}
+#anhbe h3{
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+	text-align: center;
+}
+#anhbe .col-md-6 img{
+	padding-top: 50px;
+}
+#anhbe p {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 50px;
+}
+#anhbe .col-md-6 a {
+	margin-top: 5px;
+	margin-left: 50px;
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	margin-right: 130px;
+	font-family: UTM Neo Sans Intel; 
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+#anhbe .col-md-6 a:hover{
+	background-color: #346879;
+	color:white;
+}
+#anhbe .carousel-control.right {
+	background-image: none;
+}
+#anhbe .carousel-control.left {
+	background-image: none;
+
+}
+#anhbe .carousel-control {
+	text-align: left;
+	opacity: 100%;
+	color: #346879;
+	width: 3%;
+	font-family: UTM Neo Sans Intel;
+	margin-top: 650px;
+}
+/*#anhbe .carousel-inner {
+	overflow: visible;
+}*/
+/*css phần mv cưới*/
+#mvcuoi{
+	padding-top: 180px;
+	padding-bottom: 180px;
+	background-color: #fdfbf7;
+}
+#mvcuoi h3{
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+}
+#mvcuoi p {
+	margin-top: 25px;
+	margin-bottom: 30px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: left;
+}
+#mvcuoi a {
+	margin-top: 15px;
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	margin-right: 130px;
+	font-family: UTM Neo Sans Intel;
+	font-size: 18px;
+	text-decoration: none;
+	color: black; 
+}
+#mvcuoi a:hover{
+	background-color: #346879;
+	color:white;
+}
+/*css phần mv tvc*/
+#mvtvc{
+	padding: 150px 0px;
+	background-color: #fdfbf7;
+}
+#mvtvc h3{
+	margin-top: 160px;
+	font-family: SVN-Wallows; 
+	font-size: 55px;
+	color: #346879;
+	text-align: right;
+}
+#mvtvc p {
+	margin-top: 25px;
+	font-family: UTM Neo Sans Intel;
+	color: black;
+	font-size: 18px;
+	text-align: right;
+}
+#mvtvc a {
+	margin-top: 15px;
+	padding: 5px 35px;
+	border: 2px solid #346879;
+	background-color: #fdfbf7;
+	float: right;
+	font-family: UTM Neo Sans Intel; 
+	font-size: 18px;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+#mvtvc a:hover{
+	background-color: #346879;
+	color:white;
+}
+/*css phần cuối trang*/
+#footer{
+	width: 100%;
+	height: 250px;
+	background-color: #e2f3fb;
+}
+#footer p {
+	margin-top: 20px;
+	font-family: UTM Neo Sans Intel;
+	color: #306176;
+	font-size: 18px;
+	text-align: center;
+}
